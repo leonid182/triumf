@@ -165,14 +165,14 @@ input[type="submit"]:hover {
 .main {
     margin-top: -10px;
     height: 1000px;
-    background-image: url(images/main_img.png);
+    background-image: url(../images/main_img.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
 }
 
 /*menu-top*/
-.main-menu-top {
+.menu-top {
 
     border-bottom: 1px solid #5ED1BA;
 }
@@ -260,7 +260,7 @@ nav ul {
 
 /*menu-bottom*/
 
-.main-menu-bottom {
+.menu-bottom {
 
     border-bottom: 1px solid #5ED1BA;
 }
@@ -335,4 +335,33 @@ nav ul {
     padding-top: 5%;
     background-image: linear-gradient(#13DFB7, #fff);
   }
+
+
+
+
+  /*about*/
+
+  .about {
+    background-color: #B0F1E4;
+    margin-bottom: 30px;
+    
+}
+
+.about-contant {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    height: 100%;
+    
+}
+.about-contant img {
+    width: 490px;
+    height: 640px;
+    margin: auto;
+    
+
+    
+}
+
+
 
