@@ -1,0 +1,48 @@
+
+  
+  @media screen and (max-width:1100px) {
+    
+
+    .header-info p {
+        display: none;
+    }
+    .header-info br {
+        display: initial;
+    }
+
+    input[type="text"]:focus {
+        width: 200px;
+        
+    }
+    
+  }
+
+  @media screen and (max-width:800px) {
+    h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .header-info h2 {
+        font-size: 18px;
+        margin-top: -15px;
+    }
+
+    input[type="text"]:focus {
+        width: 200px;
+        
+    }
+
+    #wrap {
+
+        margin-top: 40px;
+        
+    }
+
+    .main {
+        background-position: 85% -50%;
+    }
+
+   
+    
+  }
