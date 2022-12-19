@@ -32,6 +32,7 @@ h2 {
     font-weight: 700;
     line-height: 30px;
     letter-spacing: 0em;
+    color: #680BAB;
     
 
 }
@@ -50,6 +51,11 @@ p {
     display: flex;
     justify-content: space-between;
 }
+.jc-sa {
+    display: flex;
+    justify-content: space-around;
+}
+
 
 .a-center {
     display: flex;
@@ -62,6 +68,17 @@ li {
 
 a {
     text-decoration: none;
+    color:#A767D5;
+}
+a:hover {
+    text-decoration: underline;
+   
+}
+
+.dg {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
 }
 
 /*header*/
@@ -170,11 +187,16 @@ input[type="submit"]:hover {
 .main {
     margin-top: -10px;
     height: 1000px;
-    background-image: url(../images/main_img.png);
+    background-image: url(../images/main_img.png) ;
+    
+
+
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
+
+
 
 /*menu-top*/
 .menu-top {
@@ -190,7 +212,7 @@ input[type="submit"]:hover {
 }
 
 .nav-top-list a {
-    color: #5E5656;
+    color: #680BAB;
     font-family: 'Arsenal';
     font-size: 24px;
     font-weight: 700;
@@ -293,20 +315,42 @@ nav ul {
 }
 
 
+.news {
+    width: 50%;
+    padding-top: 50px;
+    
+}
+.news_a {
+    font-size: 18px !important;
+    
+}
+
+.news a {
+    font-size: 24px;
+    
+    
+    
+}
+
 .news h2 {
-    color:#A767D5;
+    color:#680BAB;
+    margin-bottom: 50px;
     
 }
 .news h3 {
-    color:#5ED1BA;
+    color:#680BAB;
     margin-top: 60px;
     
 }
 
 .news p {
 
-    margin-top: 60px;
+    margin-top: 15px;
     
+}
+
+.news_info {
+    margin-top: 50px;
 }
 
 
@@ -337,9 +381,30 @@ nav ul {
 
   .footer {
     height: 300px;
-    padding-top: 5%;
+    padding-top: 2%;
+    
     background-image: linear-gradient(#13DFB7, #fff);
+   
   }
+
+  .footer_right-info p {
+    color: #A767D5;
+    font-size: 18px;
+    margin: 15% 0;
+  }
+
+  .footer_right-img {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .footer_right-img img {
+    width: 40px;
+    height: 40px;
+
+  }
+
+  
 
 
 
@@ -348,7 +413,8 @@ nav ul {
 
   .about {
     background-color: #B0F1E4;
-    margin-bottom: 30px;
+    padding-top: 25px;
+    
     
 }
 
@@ -366,6 +432,36 @@ nav ul {
     
 
     
+}
+
+
+/*course*/
+
+.course {
+    background-color: #B0F1E4;
+}
+
+.course_info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.course_info-info h2 {
+    color: #680BAB;
+    margin-bottom: 45px;
+}
+
+.course_info-info {
+    text-align: right;
+}
+
+
+.course_info-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
