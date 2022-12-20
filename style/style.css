@@ -36,6 +36,14 @@ h2 {
     
 
 }
+h3 {
+    
+    font-weight: 200;
+    color: #680BAB;
+    
+    
+
+}
 
 p {
     font-family: 'Open Sans';
@@ -188,12 +196,24 @@ input[type="submit"]:hover {
     margin-top: -10px;
     height: 1000px;
     background-image: url(../images/main_img.png) ;
-    
+    position: relative;
+    z-index: 2;
 
 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.main_overlay {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(192,192,192, 0.5);
+    z-index: 0;
 }
 
 
@@ -202,6 +222,7 @@ input[type="submit"]:hover {
 .menu-top {
 
     border-bottom: 1px solid #5ED1BA;
+    
 }
 
 .nav-top-list {
@@ -297,6 +318,8 @@ nav ul {
     height: 80px;
     display: flex;
     justify-content: space-evenly;
+    position: relative;
+    z-index: 2;
 }
 
 .nav-bottom-list a {
@@ -307,21 +330,29 @@ nav ul {
     letter-spacing: 0em;
     text-align: center;
     color: #A767D5;
+    position: relative;
+    z-index: 2;
 
 }
 
 .nav-bottom-list li a:hover {
     color: #D5B45B;
+    
 }
 
 
 .news {
     width: 50%;
     padding-top: 50px;
+    position: relative;
+    z-index: 2;
+   
+
     
 }
 .news_a {
     font-size: 18px !important;
+    
     
 }
 
@@ -335,6 +366,8 @@ nav ul {
 .news h2 {
     color:#680BAB;
     margin-bottom: 50px;
+    position: relative;
+    z-index: 2;
     
 }
 .news h3 {
@@ -346,7 +379,8 @@ nav ul {
 .news p {
 
     margin-top: 15px;
-    
+    position: relative;
+    z-index: 2;
 }
 
 .news_info {
@@ -462,6 +496,24 @@ nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/*contacts*/
+
+.contacts {
+    
+    padding-top: 10%;
+    position: relative;
+    z-index: 2;
+}
+
+.contacts_info h3 {
+    margin-top: 35px;
+}
+
+
+.contact-_info-ring {
+    color: #A767D5;
 }
 
 
