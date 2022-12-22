@@ -340,6 +340,19 @@ nav ul {
     
 }
 
+.main-toggle,
+.menu-toggle {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
 
 .news {
     width: 50%;

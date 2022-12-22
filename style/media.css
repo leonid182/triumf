@@ -1,23 +1,69 @@
+@media screen and (max-width:1100px) {
 
-  
-  @media screen and (max-width:1100px) {
-    
 
     .header-info p {
         display: none;
     }
+
     .header-info br {
         display: initial;
     }
 
     input[type="text"]:focus {
         width: 200px;
-        
-    }
-    
-  }
 
-  @media screen and (max-width:800px) {
+    }
+
+}
+
+@media screen and (max-width:950px) {
+
+
+    .main-menu-bottom {
+        display: none;
+        position: absolute;
+        top: 100px;
+        right: 20px;
+        background-color: #5ED1BA;
+        z-index: 3;
+    }
+
+
+
+    .nav-bottom-list {
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+        width: 50vh;
+
+
+    }
+
+    .main-toggle,
+    .menu-toggle {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 15px;
+
+    }
+
+    .main-toggle.is-active,
+    .menu-toggle.is-active+.main-menu-bottom {
+        display: block;
+    }
+
+    .swiper {
+        padding-left: 18%;
+
+    }
+
+
+
+
+}
+
+@media screen and (max-width:800px) {
     h1 {
         font-size: 32px;
         line-height: 40px;
@@ -30,19 +76,128 @@
 
     input[type="text"]:focus {
         width: 200px;
-        
+
     }
 
     #wrap {
 
         margin-top: 40px;
-        
+
     }
 
     .main {
         background-position: 85% -50%;
     }
 
-   
+    .swiper {
+        padding-left: 30%;
+
+    }
+
+    input[type="text"]:focus {
+        width: 150px;
+        
+    }
+
+
+
+}
+
+@media screen and (max-width:720px) {
+    .swiper {
+        padding-left: 30%;
+
+    }
+
+    .main {
+        height: 1200px;
+    }
+
+    .header {
+        height: 25vh;
+    }
+
+    .footer-all {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .nav-top-list a {
+        color: #A767D5;
+    }
+
+
+    .nav-top-list {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        z-index: 3;
+        gap: 15px;
+
+
+    }
+
+    .news {
+        padding-top: 200px;
+    }
+
     
-  }
+}
+
+
+    @media screen and (max-width:600px) {
+
+        .header {
+            height: 42vh;
+            padding-top: 40px;
+        }
+
+        .header-all {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        
+        input[type="submit"] {
+            
+            position: relative;
+        }
+
+        input[type="text"]:focus {
+            width: 150px;
+            
+        }
+
+        #wrap {
+            margin-top: -10px;
+        }
+
+        
+
+        .news {
+            width: 92%;
+            
+        }
+
+        .swiper {
+            padding-left: 20%;
+    
+        }
+
+        
+
+        
+
+
+
+
+
+}
+
+
+    
