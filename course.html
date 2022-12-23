@@ -22,7 +22,7 @@
 
 <body>
     <header class="header">
-        <div class="container jc-sb a-center">
+        <div class="container jc-sb a-center header-all header-all-about">
             <div class="header-logo">
 
                 <a href="index.html"><img src="images/лого.jpg" alt="" srcset=""></a>
@@ -35,6 +35,7 @@
                 <h2>
                     То, что надо!
                 </h2>
+                
                 <p>Приглашаем вместе творить, создавать, учиться, делиться, радоваться, <br> вспоминать, строить планы и
                     воплощать</p>
             </div>
@@ -56,7 +57,7 @@
 
 
                 <nav class="nav-top">
-                    <ul class="nav-top-list a-center">
+                    <ul class="nav-top-list nav-top-list_course  a-center">
                         <li><a href="#" class="submenu-link">Творчество</a>
                             <ul class="submenu">
                                 <li><a href="oooops.html">Мой взгляд</a></li>
@@ -95,7 +96,14 @@
             </div>
         </div>
 
-        <div class="menu-bottom">
+
+        <button class="main-toggle menu-toggle menu-about menu-course hamburger hamburger--squeeze" onclick="this.classList.toggle('is-active')" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+
+        <div class="main-menu-bottom main-menu-bottom_course">
             <div class="container">
                 <nav class="nav-bottom">
                     <ul class="nav-bottom-list jc-sb a-center">
@@ -284,7 +292,7 @@
 
     <section class="footer ">
 
-        <div class="container jc-sa">
+        <div class="container jc-sa footer-all ">
             <div class="footer_left">
                 <p>
                     ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ <br> «НИЖЕГОРОДСКАЯ ТВОРЧЕСКАЯ ЛАБОРАТОРИЯ 2Х2» <br>(ООО

@@ -4,10 +4,13 @@
 }
 
 
+
+
 body {
     margin: 0;
     height: 100%;
     overflow-x: hidden;
+    
 
 }
 
@@ -86,6 +89,7 @@ a:hover {
     text-decoration: underline;
    
 }
+
 
 .dg {
     display: grid;
@@ -352,17 +356,6 @@ nav ul {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 .news {
     width: 50%;
     padding-top: 50px;
@@ -443,6 +436,8 @@ nav ul {
    
   }
 
+  
+
   .footer_right-info p {
     color: #A767D5;
     font-size: 18px;
@@ -480,13 +475,13 @@ nav ul {
 }
 
 .about-contant {
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr); */
+    
     display: flex;justify-content: space-between;
     gap: 20px;
+    margin-top: 10px;
 
-    height: 100%;
-    margin-bottom: 30px;
+    /* height: 100%; */
+    
     
     
 }
@@ -497,7 +492,7 @@ nav ul {
 }
 
 .footer-about {
-    padding-top: 22vh;
+    padding-top: 15vh;
 }
 
 
@@ -547,6 +542,17 @@ nav ul {
 
 .contact_info-ring {
     color: #A767D5;
+}
+
+
+/*oooops*/
+
+.ooops {
+    color:#F60404; 
+    line-height: 45px;
+    font-size: 36px; 
+    font-weight: 700; 
+    z-index: 2;
 }
 
 

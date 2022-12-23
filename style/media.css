@@ -116,11 +116,33 @@
     }
 
     
-
+    /*course*/
     
+    .course_info {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .course_info-info {
+        text-align: left;
+    }
+
+    .menu-course {
+        position: absolute;
+        top: 300px;
+    }
+
+    .main-menu-bottom_course {
+        margin-top: 250px;
+    }
 
 
 
+}
+@media screen and (max-width:850px){
+.footer-about {
+    margin-top: 22vh;
+}
 
 }
 
@@ -288,6 +310,40 @@
        margin-top: 150px;
     }
 
+
+    /*course*/
+    .nav-top-list_course {
+        
+        position: absolute;
+        top: 450px;
+    }
+
+    .course {
+        padding-top: 250px;
+    }
+
+    .menu-course {
+        position: absolute;
+        top: 400px;
+    }
+
+    .main-menu-bottom_course {
+        margin-top: 350px;
+    }
+
+    /*oooops*/
+    .oooops-top {
+        position: absolute;
+        top:30px;
+    }
+
+    .ooops {
+        padding-top: 400px;
+        margin-top: -20px;
+
+    }
+
+    
     
 }
 
