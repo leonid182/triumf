@@ -20,16 +20,20 @@
 
 }
 
-@media screen and (max-width:1000px ) {
+@media screen and (max-width:1000px) {
 
     .footer-about {
         height: 350px;
         margin-top: 160px;
     }
+
+    .swiper {
+        padding-left: 20%;
+    }
 }
 
-@media screen and (max-width:950px ) {
-/*main*/
+@media screen and (max-width:950px) {
+    /*main*/
 
     .main-menu-bottom,
     .menu-bottom {
@@ -53,7 +57,7 @@
     }
 
     .main-toggle,
-    .menu-toggle{
+    .menu-toggle {
         display: block !important;
         position: absolute;
         right: 0;
@@ -83,16 +87,16 @@
         display: flex;
         flex-direction: column;
         padding-top: 50px;
-        
+
     }
 
     .about-contant img {
         width: 390px;
         height: 540px;
         margin: auto;
-        
-    
-        
+
+
+
     }
 
     /*contacts*/
@@ -100,13 +104,13 @@
     .contacts-all {
         display: flex;
         flex-direction: column;
-       margin-top: -90px;
+        margin-top: -90px;
     }
 
     iframe {
         width: 400px;
         height: 400px;
-       
+
     }
 
     /*footer*/
@@ -115,14 +119,15 @@
         padding-top: 300px;
     }
 
-    
+
     /*course*/
-    
+
     .course_info {
         display: flex;
         flex-direction: column;
-        
+
     }
+
     .course_info-info {
         text-align: left;
     }
@@ -138,11 +143,21 @@
 
 
 
+
+
+    
 }
-@media screen and (max-width:850px){
-.footer-about {
-    margin-top: 22vh;
+
+@media screen and (max-width:900px){
+    .swiper {
+        padding-left: 50%;
+    }
 }
+
+@media screen and (max-width:850px) {
+    .footer-about {
+        margin-top: 22vh;
+    }
 
 }
 
@@ -181,7 +196,7 @@
 
     input[type="text"]:focus {
         width: 150px;
-        
+
     }
 
     /*about*/
@@ -189,24 +204,26 @@
     .about-contant img {
         height: 500px;
     }
-    .about-contant{
-        padding-top : 100px;
-        
+
+    .about-contant {
+        padding-top: 100px;
+
     }
+
     .footer-about {
         padding-top: 400px;
     }
 
     /*contacts*/
     .contacts {
-    
+
         padding-top: 80px;
-       
-        
+
+
     }
 
     .main-toggle,
-    .menu-toggle{
+    .menu-toggle {
         z-index: 5;
 
     }
@@ -225,9 +242,7 @@
         height: 1200px;
     }
 
-    .header {
-        height: 25vh;
-    }
+
 
     .header {
         height: 42vh;
@@ -246,16 +261,16 @@
         gap: 5px;
     }
 
-    
+
     input[type="submit"] {
-        
+
         position: relative;
-       
+
     }
 
     input[type="text"]:focus {
         width: 150px;
-        
+
     }
 
     #wrap {
@@ -263,7 +278,7 @@
         margin-bottom: 30px;
     }
 
-    
+
 
     .footer-all {
         display: flex;
@@ -296,7 +311,7 @@
     /*about*/
 
     .footer-about {
-        
+
         margin-top: 50px;
     }
 
@@ -306,14 +321,14 @@
 
     /*contacts*/
     .contacts-all {
-        
-       margin-top: 150px;
+
+        margin-top: 150px;
     }
 
 
     /*course*/
     .nav-top-list_course {
-        
+
         position: absolute;
         top: 450px;
     }
@@ -334,7 +349,7 @@
     /*oooops*/
     .oooops-top {
         position: absolute;
-        top:30px;
+        top: 30px;
     }
 
     .ooops {
@@ -343,75 +358,170 @@
 
     }
 
-    
+}
+
+
+
+
+@media screen and (max-width:600px) {
+
+    .header {
+        height: 42vh;
+        padding-top: 40px;
+    }
+
+    .header-all {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+
+    input[type="submit"] {
+
+        position: relative;
+
+    }
+
+    input[type="text"]:focus {
+        width: 150px;
+
+    }
+
+    #wrap {
+        margin-top: -30px;
+        margin-bottom: 30px;
+    }
+
+
+
+    .news {
+        width: 92%;
+
+    }
+
+    .swiper {
+        padding-left: 20%;
+
+    }
+
+    /*about*/
+
+    .about-contant {
+        padding-top: 150px;
+    }
+
+
+    .footer-about {
+
+        margin-top: 160px;
+    }
+
+    /*contacts*/
+
+    iframe {
+        width: 300px;
+        height: 300px;
+        margin-top: 25px;
+    }
+
+    /*course*/
+    .course_info-img img{
+        width: 300px;
+        height: 200px;
+
+    }
+}
+
+@media screen and (max-width:550px) {
+    .footer-about {
+        margin-top: 250px;
+    }
+}
+
+@media screen and (max-width:470px) {
+    .footer-about {
+        margin-top: 250px;
+    }
+
+    .about-contant img {
+        height: 300px;
+        width: 200px;
+    }
+}
+@media screen and (max-width:400px) {
+    .main-menu-bottom,
+    .menu-bottom {
+       
+        position: absolute;
+        top: 100px;
+        right: 0;
+        background-color: #5ED1BA;
+        z-index: 3;
+        
+    }
+    .footer-about {
+        margin-top: 250px;
+    }
+
+    .about-contant img {
+        height: 300px;
+        width: 200px;
+    }
+}
+
+
+
+@media screen and (max-width:380px) {
+    .header {
+        height: 50vh;
+    }
+
+    .footer-about {
+        margin-top: 350px;
+    }
+
+    input[type="text"]:focus {
+        width: 100px;
+
+    }
+}
+
+@media screen and (max-width:360px) {
+    .footer-about {
+        margin-top: 500px;
+        height: 100vh;
+    }
+}
+@media screen and (max-width:330px) {
+    .footer-about {
+        margin-top: 600px;
+        height: 120vh;
+    }
+
+    .course_info-img img{
+        width: 200px;
+        height: 150px;
+
+
+    }
+
+    .course_info-img {
+        display: flex;
+        align-items: center;
+        justify-content: center
+    }
+
+    .swiper {
+        padding-left: 4%;
+    }
     
 }
 
 
-    @media screen and (max-width:600px) {
-
-        .header {
-            height: 42vh;
-            padding-top: 40px;
-        }
-
-        .header-all {
-            display: flex;
-            flex-direction: column;
-            gap: 5px;
-        }
-
-        
-        input[type="submit"] {
-            
-            position: relative;
-           
-        }
-
-        input[type="text"]:focus {
-            width: 150px;
-            
-        }
-
-        #wrap {
-            margin-top: -30px;
-            margin-bottom: 30px;
-        }
-
-        
-
-        .news {
-            width: 92%;
-            
-        }
-
-        .swiper {
-            padding-left: 20%;
-    
-        }
-
-        /*about*/
-
-        .about-contant {
-            padding-top: 150px;
-        }
-
-        
-        .footer-about {
-            
-            margin-top: 160px;
-        }
-        
-        @media screen and (max-width:550px) {
-            .footer-about {
-                margin-top: 220px;
-            }
-        }
 
 
 
 
-}
 
 
-    
