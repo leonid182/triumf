@@ -71,6 +71,11 @@
 
     }
 
+    h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
 
     /*about*/
 
@@ -90,10 +95,21 @@
         
     }
 
-    h1 {
-        font-size: 32px;
-        line-height: 40px;
+    /*contacts*/
+
+    .contacts-all {
+        display: flex;
+        flex-direction: column;
+       margin-top: -90px;
     }
+
+    iframe {
+        width: 400px;
+        height: 400px;
+       
+    }
+
+    /*footer*/
 
     .footer-about {
         padding-top: 300px;
@@ -157,6 +173,20 @@
     }
     .footer-about {
         padding-top: 400px;
+    }
+
+    /*contacts*/
+    .contacts {
+    
+        padding-top: 80px;
+       
+        
+    }
+
+    .main-toggle,
+    .menu-toggle{
+        z-index: 5;
+
     }
 
 
@@ -250,6 +280,12 @@
 
     .about-contant {
         padding-top: 200px;
+    }
+
+    /*contacts*/
+    .contacts-all {
+        
+       margin-top: 150px;
     }
 
     

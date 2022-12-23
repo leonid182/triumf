@@ -7,6 +7,7 @@
 body {
     margin: 0;
     height: 100%;
+    overflow-x: hidden;
 
 }
 
@@ -544,7 +545,7 @@ nav ul {
 }
 
 
-.contact-_info-ring {
+.contact_info-ring {
     color: #A767D5;
 }
 
