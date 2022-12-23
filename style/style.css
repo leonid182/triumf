@@ -6,12 +6,15 @@
 
 body {
     margin: 0;
-
+    height: 100%;
 
 }
 
+
+
 .container {
     max-width: 1200px;
+    min-height: 100%;
     margin: 0 auto;
     padding:0 20px;
 }
@@ -458,18 +461,26 @@ nav ul {
 
   /*about*/
 
+  .main-about {
+    background-color: #13DFB7;
+  }
+
   .about {
     background-color: #B0F1E4;
     padding-top: 25px;
     
     
+    
 }
 
 .about-contant {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+    display: flex;justify-content: space-between;
     gap: 20px;
+
     height: 100%;
+    
     
 }
 .about-contant img {
@@ -480,6 +491,7 @@ nav ul {
 
     
 }
+
 
 
 /*course*/
