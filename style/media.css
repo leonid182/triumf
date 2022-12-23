@@ -14,9 +14,21 @@
 
     }
 
+    .footer-about {
+        padding-top: 300px;
+    }
+
 }
 
-@media screen and (max-width:950px) {
+@media screen and (max-width:1000px ) {
+
+    .footer-about {
+        height: 350px;
+        margin-top: 160px;
+    }
+}
+
+@media screen and (max-width:950px ) {
 /*main*/
 
     .main-menu-bottom,
@@ -41,8 +53,8 @@
     }
 
     .main-toggle,
-    .menu-toggle {
-        display: block;
+    .menu-toggle{
+        display: block !important;
         position: absolute;
         right: 0;
         top: 15px;
@@ -65,7 +77,7 @@
     .about-contant {
         display: flex;
         flex-direction: column;
-        padding-top: 200px;
+        padding-top: 50px;
         
     }
 
@@ -84,7 +96,7 @@
     }
 
     .footer-about {
-padding-top: 600px;
+        padding-top: 300px;
     }
 
     
@@ -97,6 +109,8 @@ padding-top: 600px;
 }
 
 @media screen and (max-width:800px) {
+
+    /*main*/
     h1 {
         font-size: 32px;
         line-height: 40px;
@@ -114,7 +128,7 @@ padding-top: 600px;
 
     #wrap {
 
-        margin-top: 40px;
+        margin-top: 20px;
 
     }
 
@@ -130,6 +144,19 @@ padding-top: 600px;
     input[type="text"]:focus {
         width: 150px;
         
+    }
+
+    /*about*/
+
+    .about-contant img {
+        height: 500px;
+    }
+    .about-contant{
+        padding-top : 100px;
+        
+    }
+    .footer-about {
+        padding-top: 400px;
     }
 
 
@@ -149,6 +176,42 @@ padding-top: 600px;
     .header {
         height: 25vh;
     }
+
+    .header {
+        height: 42vh;
+        padding-top: 40px;
+    }
+
+    .header-all {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .header-all {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    
+    input[type="submit"] {
+        
+        position: relative;
+       
+    }
+
+    input[type="text"]:focus {
+        width: 150px;
+        
+    }
+
+    #wrap {
+        margin-top: -30px;
+        margin-bottom: 30px;
+    }
+
+    
 
     .footer-all {
         display: flex;
@@ -178,6 +241,17 @@ padding-top: 600px;
         padding-top: 200px;
     }
 
+    /*about*/
+
+    .footer-about {
+        
+        margin-top: 50px;
+    }
+
+    .about-contant {
+        padding-top: 200px;
+    }
+
     
 }
 
@@ -199,6 +273,7 @@ padding-top: 600px;
         input[type="submit"] {
             
             position: relative;
+           
         }
 
         input[type="text"]:focus {
@@ -207,7 +282,8 @@ padding-top: 600px;
         }
 
         #wrap {
-            margin-top: -10px;
+            margin-top: -30px;
+            margin-bottom: 30px;
         }
 
         
@@ -222,10 +298,23 @@ padding-top: 600px;
     
         }
 
-        
+        /*about*/
+
+        .about-contant {
+            padding-top: 150px;
+        }
 
         
-
+        .footer-about {
+            
+            margin-top: 160px;
+        }
+        
+        @media screen and (max-width:550px) {
+            .footer-about {
+                margin-top: 220px;
+            }
+        }
 
 
 

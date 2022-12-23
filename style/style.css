@@ -344,9 +344,14 @@ nav ul {
 }
 
 .main-toggle,
-.menu-toggle {
-    display: none;
+.menu-toggle  {
+    display: none !important;
+    
 }
+
+
+
+
 
 
 
@@ -480,6 +485,7 @@ nav ul {
     gap: 20px;
 
     height: 100%;
+    margin-bottom: 30px;
     
     
 }
@@ -487,9 +493,10 @@ nav ul {
     width: 490px;
     height: 640px;
     margin: auto;
-    
+}
 
-    
+.footer-about {
+    padding-top: 22vh;
 }
 
 
